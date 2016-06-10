@@ -6,9 +6,9 @@ import uvm_pkg::*;
 `include "uvm_macros.svh"
 
 `include "apb_if.svh"
-`include "apb_rw.svh"
+`include "apb_rw.sv"
 `include "apb_drv_seq_mon.sv"
-`include "apb_agnt_env_config.sv"
+`include "apb_agent_env_config.sv"
 `include "apb_sequences.svh"
 `include "apb_test.sv"
 
